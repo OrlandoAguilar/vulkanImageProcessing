@@ -1,0 +1,5 @@
+dxc -T cs_6_0 -E "Main" -spirv -fvk-use-dx-layout -fspv-target-env=vulkan1.1 -Fo "BlackAndWhite.spv" "BlackAndWhite.hlsl"
+dxc -T cs_6_0 -E "Main" -spirv -fvk-use-dx-layout -fspv-target-env=vulkan1.1 -Fo "Gray.spv" "Gray.hlsl"
+dxc -T cs_6_0 -E "Main" -spirv -fvk-use-dx-layout -fspv-target-env=vulkan1.1 -Fo "GaussH.spv" "GaussH.hlsl"
+dxc -T cs_6_0 -E "Main" -spirv -fvk-use-dx-layout -fspv-target-env=vulkan1.1 -Fo "GaussV.spv" "GaussV.hlsl"
+dxc -T cs_6_0 -E "Main" -spirv -fvk-use-dx-layout -fspv-target-env=vulkan1.1 -Fo "Laplacian.spv" "Laplacian.hlsl"
