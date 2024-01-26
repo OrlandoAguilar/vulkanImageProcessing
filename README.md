@@ -6,6 +6,6 @@ The effects included are:
 * Laplacian
 * Gray Scale
 * Binary transformation
-* Gaussian (Usin two shaders by taking advantage of the separable nature of the effect)
+* Gaussian (Using two shaders by taking advantage of the separable nature of the effect)
 
 I am leaving also an example of how to capture render doc captures of compute only work by using code.
